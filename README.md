@@ -1,4 +1,4 @@
-<img style="max-height:500px;"  src="https://repository-images.githubusercontent.com/336304650/394fce00-6817-11eb-9bdd-94dc879c4d2f">
+<img style="max-height:500px; border-radius: 6px;"  src="https://repository-images.githubusercontent.com/336304650/1542bb80-681c-11eb-9c19-a2370adf166a">
 
 ## Overview
 
