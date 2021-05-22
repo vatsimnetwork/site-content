@@ -5,10 +5,10 @@ import { M_BREAKPOINT } from "../../src/styles";
 
 const Container = styled.blockquote<{ background: string; border: string }>`
   padding: var(--l);
-  line-height: 1.4rem;
+  line-height: 1.6rem;
   border-left: ${({ border }) => `9px solid ${border}`};
   background-color: ${({ background }) => background};
-  margin-bottom: var(--m);
+  margin: var(--m) 0;
 
   @media (max-width: ${M_BREAKPOINT}px) {
     border-left: none;
