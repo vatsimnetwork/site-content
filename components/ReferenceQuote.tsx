@@ -8,6 +8,10 @@ import { hrefStyles, highlightHref } from "../../src/styles";
 const Container = styled.blockquote`
   background-color: #f6f8fd;
   margin: var(--l) 0;
+
+  [data-theme="dark"] & {
+    background-color: var(--secondary);
+  }
 `;
 
 const Header = styled.div`
@@ -15,7 +19,10 @@ const Header = styled.div`
     "Courier New", monospace;
   padding: var(--l);
   border-bottom: 1px solid #d3defa;
-  /* font-style: italic; */
+
+  [data-theme="dark"] & {
+    border-color: var(--borderColor);
+  }
 
   & > a {
     ${hrefStyles};
